@@ -1,0 +1,22 @@
+.div1{
+    margin: auto;
+    height: 80px;
+    width: 500px;
+    border: 1px solid black;
+    text-align: center;
+    padding:50px;
+}
+.div2{
+    margin: auto;
+    height: 80px;
+    width: 500px;
+    border: 50px solid black;
+    text-align: center;
+    box-sizing: border-box;
+    padding:50px;   
+    margin: 10px auto;
+    border-top-righ: 10px;
+}
+p{
+    border: 1px solid black;
+}
