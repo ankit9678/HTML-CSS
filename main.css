@@ -1,16 +1,22 @@
-/* #div1{
-color: red;
-} */
-
-div{
-    color: chartreuse;
+.div1{
+    margin: auto;
+    height: 80px;
+    width: 500px;
+    border: 1px solid black;
+    text-align: center;
+    padding:50px;
 }
-
-[target="_title"]{
-color: aqua
-
+.div2{
+    margin: auto;
+    height: 80px;
+    width: 500px;
+    border: 50px solid black;
+    text-align: center;
+    box-sizing: border-box;
+    padding:50px;   
+    margin: 10px auto;
+    border-top-righ: 10px;
 }
-.select{
-
-    color: blue;
+p{
+    border: 1px solid black;
 }
