@@ -1,0 +1,38 @@
+/* .c1{
+    background-color: green;
+}
+.c2{
+    background-color: yellow;
+}
+.c3{
+    background-color: blue;
+}
+.c4{
+    background-color: purple;
+}
+.c5{
+    background-color: violet;
+} */
+div:nth-child(1){
+    background-color: bisque;
+}
+div:nth-child(2){
+    background-color:green;
+}
+div:nth-child(3){
+    background-color:yellow;
+}
+div:nth-child(4){
+    background-color: brown;
+}
+div:nth-child(5){
+    background-color: pink;
+}
+div:nth-child(6){
+    background-color: red;
+}
+div:nth-child(7){
+    background-color: violet;
+}
+
+

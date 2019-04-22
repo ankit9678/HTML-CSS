@@ -1,0 +1,50 @@
+html{
+    font-size: 3rem;
+}
+html,body,div{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#atf{
+    height: 100vh;;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#steeper{
+    height: 2rem;
+    width: 6rem;
+    border-radius: 10px;
+    display: flex;
+    /* justify-content: center;
+    align-items: center;
+    flex-flow: row nowrap; */
+    border: 1px solid black;
+}
+
+#first-1{
+flex-grow: 1;
+background-color: aqua;
+display: flex;
+    justify-conctent: center;
+    align-items: center;
+    border: 1px solid black;
+    flex-flow: row nowrap;
+    border-radius: 10px 0 0 10px;
+}  
+#first-2{
+    flex-grow: 2;
+    border: 1px solid black;
+    }  
+    
+#first-3{
+        flex-grow: 1;
+        background-color: aqua;
+        display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 1px solid black;
+            flex-flow: row nowrap;
+            border-radius: 0 10px 10px 0;
+        }   
