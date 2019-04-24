@@ -1,0 +1,20 @@
+.icon {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    stroke-width: 0;
+    stroke: currentColor;
+    fill: white;
+    margin: 0px 10px;
+    /* font-size: 10px; */
+  }
+  .icon:hover{
+      color: red;
+  }
+
+  header{
+    justify-content:space-between;
+  }
+  .comp{
+    font-size: 20px;
+}

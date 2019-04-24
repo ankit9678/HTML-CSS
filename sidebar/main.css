@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 100%;
+    width: 100%;
+    border: 1px solid red;
+}
+
+#atf{
+    height: 100vh;
+    width: 20%;
+    border-right: 1px solid gray;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+}
+#upper{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+button{
+    background-color: transparent;
+    border: 0;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+}
+#lower{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+button:hover{
+    background-color: aqua;
+}
+
+

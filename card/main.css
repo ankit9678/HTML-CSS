@@ -1,0 +1,60 @@
+html, body, div, h3, span {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 1vw;
+    font-family: Raleway, Helvetica, sans-serif;
+    color: #57727C;
+}
+#hdf{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row nowrap;
+}
+#atf{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#ddf{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid gray;
+    border-radius: 2px;
+    /* padding: 0px 10px; */
+}
+#gfg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.icon{
+    height: 20rem;
+    width: 20rem;
+    fill: grey
+}
+h1{
+    /* font-size: 40px; */
+    justify-content: center;
+    align-items: center;
+}
+#hcj{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightblue;
+    border-top: 1px solid gray;
+    border-radius: 0px 0px 2px 2px;
+    width: 100%;
+}

@@ -1,0 +1,56 @@
+html,body,div,h1,h2{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;  
+    width: 100vw;
+    height: 5rem;
+    background-color: pink;
+    border: 2px solid pink;
+    display: flex;
+   justify-content:space-around;
+   align-items: center;
+   /* padding: 0 20px; */
+  
+}
+header>div {
+border: 2px solid red;
+display: flex;
+justify-content:center;
+align-items: center;
+;
+
+}
+#atf{
+    width: 100vw;
+    height: 100vh;
+   border: 2px solid pink;
+   background-image: url(bird.jpg);
+   background-size: cover;
+   background-position: center;
+   display: flex;
+   justify-content: center;
+   align-items: center
+
+}
+h1{
+    border: 2px solid pink;
+    font-size: 50px;
+    color: white;
+}
+h2{
+    width: 100vw;
+    height: 8rem;
+    border: 4px solid pink;
+    font-size: 80px;
+    text-align: center;
+    font-family: 'Nosifer', cursive;
+    color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
