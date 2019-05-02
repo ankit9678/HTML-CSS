@@ -1,8 +1,14 @@
-/* div{
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+div{
     margin: 0;
     padding: 0;
     border: 5px solid red;
-    wildth: 700px;
+    width: 700px;
     overflow: auto;
     margin: 0 auto;
 }
@@ -12,22 +18,25 @@ border: 1px solid black;
 margin: 0 auto;
 
 }
+
 img{
-    overflow: hidden;
+    /* overflow: hidden; */
     width: 25%;
     float: right
 }
+
 p{
     width: 75%;
     float: left
 }
+
 span{
-    clear: left
-} */
-body{
+    clear: both
+}
+/* body{
     margin: 0;
     padding: 0;
-    /* display: flex; */
+    display: flex;
     border: 1px solid black;
 }
 div
@@ -40,12 +49,12 @@ div
    background-position: 10px 10px;
   background-repeat: no-repeat;
  background-size: 20%;
- /* background-origin: content-box; */
+ background-origin: content-box;
 justify-content: center;
-/* background-attachment: fixed; */
+background-attachment: fixed;
 }
 p{
     text-align: center;
-}
+} */
 
 

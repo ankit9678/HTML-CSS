@@ -10,9 +10,9 @@ margin: 0;
 color:whitesmoke;
 
 }
-.icon{
-    display: none;
-}
+
+
+
 header{
     position: fixed;
     top: 0;
@@ -21,10 +21,19 @@ header{
     height: 35px;
     width: 100vw;
     display: flex;
-    flex-flow: row nowrap;
+    /* flex-flow: row nowrap; */
     justify-content:center;
     align-items: center;
     /* font-size: 50px; */
+}
+header div header nav svg {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+}
+header div a,header nav svg{
+    display: none;
 }
 #hdg{
     display: flex;
@@ -44,16 +53,20 @@ header{
     height: 100vh;
     /* border: 3px solid black; */
     display: flex;
-justify-content: center;
-align-items: center;
-flex-flow: row nowrap;
-background-image: url(../img/background-photo.jpg);
+    justify-content: center;
+    align-items: center;
+/* flex-flow: row nowrap; */
+     background-image: url(../img/background-photo.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-color:gray;
     background-attachment: scroll;
     background-origin: border-box;
     background-position: top;
+    font-size: 5rem;
+}
+#idx-atf > div{
+    height: 90vh; 
 }
 #idx-centre-spacebetween{
     display: flex;
@@ -90,4 +103,24 @@ button{
     /* border: 1px solid black; */
     border-radius: 3%;
     padding: 10px;
+}
+footer{
+    font-size: 1.6rem;
+}
+
+footer nav{
+    display: flex;
+    flex-direction: column;
+}
+footer nav a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 3rem;
+    background-color: deepskyblue;
+    border-top: 1px solid rgba(255,255,255,0.3);
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+footer nav a:hover{
+    background-color: royalblue;
 }
