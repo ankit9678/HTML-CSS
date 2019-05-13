@@ -1,0 +1,52 @@
+html, body, div, button {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 1vw;
+    font-family: Raleway, Helvetica, sans-serif;
+    color: rgb(134, 150, 156);
+}
+body{
+    border: 1px solid red;
+}
+#atf{
+    display: flex;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section{
+    border: 2px solid gray;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem;
+    max-width: 35%;
+}
+.row-left,.row-right,.row-left{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+.row-right{
+    border-top:1px solid grey;
+    border-bottom:1px solid grey;
+}
+.icon{
+    width: 10rem;
+    height: 10rem;
+    fill: grey;
+}
+h2{
+    display: flex;
+    flex-flow: row nowrap;
+}
+
